@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="CSS/style-minhaconta.css">
+  <title>Minha Conta</title>
+  <script src="JS/script.js" defer></script>
+</head>
+
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="menu">
+        <li class="logo-hotel">
+          <a href="index.html">
+            <img class="logo-hotel" src="img/inicio/hotel-e-logo/Logo - Green Garden (horizontal_png).png"
+              alt="Logo do hotel">
+          </a>
+        </li>
+        <li class="menu-item"><a href="sobre.html">Sobre</a></li>
+        <li class="menu-item"><a href="quartos.html">Quartos</a></li>
+        <li class="menu-item"><a href="suporteAocliente.html">Suporte ao cliente</a></li>
+        <li class="menu-item"><a href="minhaconta.html">Minha Conta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <form>
+        <article class="container">
+          <img id="img-login" src="img/inicio/hotel-e-logo/perfil_png.png" alt="Imagem de login">
+          <h3 class="titulo-login">Login</h3>
+          <article>
+            <label class="label" for="login">E-mail</label>
+            <input id="login" type="text" placeholder="E-mail" required />
+
+            <label class="label" for="senha">Senha</label>
+            <input id="senha" type="password" placeholder="Senha" required />
+
+            <input id="login-bnt" type="submit" value="Login" onclick="logar()" />
+
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />Lembrar senha ?
+            </label>
+
+            <span><a class="cadastre-se" href="#">Cadastre-se</a></span>
+          </article>
+        </article>
+      </form>
+    </section>
+  </main>
+</body>
+
+<footer>
+  <ul class="rodape">
+    <li class="rodape_info"><a href="suporteAocliente.html">Suporte ao cliente</a></li>
+    <li class="rodape_info"><a href="politicadeprivacidade.html">Política de Privacidade</a></li>
+  </ul>
+  <p class="direitosreservados">© Hotel - Green Garden. Todos os direitos reservados.</p>
+</footer>
+
+</html>
