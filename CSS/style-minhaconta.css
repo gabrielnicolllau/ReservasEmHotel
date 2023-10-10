@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../img/inicio/hotel-e-logo/hotel.jpg);
+
+}
+
+header {
+  padding: 20px 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #183F3C;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+
+.menu-item a {
+  display: block;
+  padding: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: auto;
+  align-items: center;
+  height: auto;
+}
+
+.logo-hotel {
+  margin: 0%;
+  padding: 0%;
+  max-width: 220px;
+  margin-right: auto;
+  height: auto;
+}
+
+.menu-item a:hover {
+  background-color: #F98049;
+}
+
+section {
+  margin-top: 5px;
+  margin: 5px;
+
+}
+
+section article {
+  margin-top: 50px;
+}
+
+.titulo-login {
+  padding: auto;
+  height: 1px;
+}
+
+form {
+  width: 300px;
+  margin: 200px auto;
+  text-align: center;
+  color: white;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+#login-bnt {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+input:hover {
+  opacity: 0.8;
+}
+
+.label {
+  margin-right: 208px;
+  font-weight: bold
+}
+
+.container {
+  padding: 16px;
+  background-color: #183F3C;
+}
+
+.cadastre-se {
+  color: white;
+}
+
+footer {
+  background-color: #183F3C;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+}
+
+.rodape li {
+  display: inline;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape_info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.rodape_info a:hover {
+  color: #F98049;
+}
+
+.direitosreservados {
+  margin: 0;
+}
+
+#img-login {
+  width: 30%;
+  height: auto;
+}
