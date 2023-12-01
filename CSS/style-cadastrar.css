@@ -1,10 +1,9 @@
 body {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   min-height: 100vh;
   background-image: url(../img/inicio/hotel-e-logo/hotel.jpg);
-
 }
 
 header {
@@ -16,7 +15,7 @@ header {
   margin: 0%;
   padding: 0%;
   overflow: hidden;
-  background-color: #183F3C;
+  background-color: #183f3c;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -46,13 +45,12 @@ header {
 }
 
 .menu-item a:hover {
-  background-color: #F98049;
+  background-color: #f98049;
 }
 
 section {
   margin-top: 5px;
   margin: 5px;
-
 }
 
 section article {
@@ -71,15 +69,14 @@ form {
   color: white;
 }
 
-input[type=text],
-input[type=password] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
-
 }
 
 #login-bnt {
@@ -98,12 +95,12 @@ input:hover {
 
 .label {
   margin-right: 208px;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .container {
   padding: 16px;
-  background-color: #183F3C;
+  background-color: #183f3c;
 }
 
 .cadastre-se {
@@ -111,7 +108,7 @@ input:hover {
 }
 
 footer {
-  background-color: #183F3C;
+  background-color: #183f3c;
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -135,7 +132,7 @@ footer {
 }
 
 .rodape_info a:hover {
-  color: #F98049;
+  color: #f98049;
 }
 
 .direitosreservados {
