@@ -72,9 +72,9 @@ function cadastrar() {
         // Cria registro na localStorage
         localStorage.setItem("listaDeUsuarios", JSON.stringify(listaDeUsuarios));
 
+        window.location.href = "../html/login.html";
         alert("Cadastro com sucesso!");
 
-        window.location.href = "login.html";
 
     } else {
         alert("Preecha todos os campos!");
