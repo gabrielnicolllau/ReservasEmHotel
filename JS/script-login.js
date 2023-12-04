@@ -1,13 +1,27 @@
-/* Pegar informacao do usuario */
-function logar() {
-    var login = document.getElementById("login").value;
-    var senha = document.getElementById("senha").value;
-  
-    /* Validacao da senha */
-    if (login == "admin" && senha == "admin") {
-      alert("Login realizado com sucesso!");
-    } else {
-      alert("Usuário ou senha incorretos!");
+function entrar() {
+  let usuario = document.querySelector("#usuario").value;
+  let senha = document.querySelector("#senha").value;
+
+  let listaDeUser = JSON.parse(localStorage.getItem("listaDeUsuarios")) || [];
+
+  let userValid = {
+    usuario: "",
+    senha: ""
+  };
+
+  listaDeUser.forEach(item => {
+    if (usuario === item.cadastroUsuario && senha === item.cadastroDaSenha) {
+      userValid = {
+        usuario: item.cadastroUsuario,
+        senha: item.cadastroDaSenha
+      };
     }
+  });
+
+  if (userValid.usuario !== "" && userValid.senha !== "") {
+    alert("Login bem-sucedido!");
+
+  } else {
+    alert("Usuário ou senha incorretos!");
   }
-  
+}
