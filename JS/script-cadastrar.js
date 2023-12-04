@@ -56,9 +56,26 @@ confimarSenha.addEventListener("keyup", () => {
 });
 
 function cadastrar() {
-    if(validarNome && validarUsuario && validarSenha && validarConfirmarSenha) {
-        // TODO
-        alert("Cadastrado!");
+    if (validarNome && validarUsuario && validarSenha && validarConfirmarSenha) {
+
+        // Se houver uma lista na localstorage, ela será adicionada. Caso não exista, será criado um array vazio.
+        let listaDeUsuarios = JSON.parse(localStorage.getItem("listaDeUsuarios") || "[]"); // Tranforma o que vamos colocar dentro do localstorage em JSON
+
+        listaDeUsuarios.push({
+
+            cadastroDoNome: nome.value,
+            cadastroUsuario: usuario.value,
+            cadastroDaSenha: senha.value,
+
+        });
+
+        // Cria registro na localStorage
+        localStorage.setItem("listaDeUsuarios", JSON.stringify(listaDeUsuarios));
+
+        alert("Cadastro com sucesso!");
+
+        window.location.href = "login.html";
+
     } else {
         alert("Preecha todos os campos!");
     }
