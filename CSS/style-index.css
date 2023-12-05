@@ -1,12 +1,16 @@
 body {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   min-height: 100vh;
 }
 
-header {
-  padding: 20px 0;
+nav {
+  height: 100px;
+}
+
+main {
+  min-height: 100vh;
 }
 
 .menu {
@@ -14,11 +18,11 @@ header {
   margin: 0%;
   padding: 0%;
   overflow: hidden;
-  background-color: #183F3C;
+  background-color: #183f3c;
   display: flex;
   flex-direction: row;
   justify-content: end;
-  height: auto;
+  height: 100px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -44,7 +48,7 @@ header {
 }
 
 .menu-item a:hover {
-  background-color: #F98049;
+  background-color: #f98049;
 }
 
 section {
@@ -84,7 +88,7 @@ section article {
 }
 
 .price {
-  color: #183F3C;
+  color: #183f3c;
   font-size: 18px;
 }
 
@@ -109,7 +113,7 @@ section article {
 }
 
 footer {
-  background-color: #183F3C;
+  background-color: #183f3c;
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -117,7 +121,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-top: 20px;
 }
 
 .rodape li {
@@ -133,7 +136,7 @@ footer {
 }
 
 .rodape_info a:hover {
-  color: #F98049;
+  color: #f98049;
 }
 
 .direitosreservados {
@@ -146,7 +149,6 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 15px;
-
 }
 
 .logo-pagamento {
@@ -162,7 +164,6 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 0;
-
 }
 
 .icons-bandeiras {

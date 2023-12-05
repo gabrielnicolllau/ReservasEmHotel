@@ -1,12 +1,16 @@
 body {
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   min-height: 100vh;
 }
 
-header {
-  padding: 20px 0;
+nav {
+  height: 100px;
+}
+
+main {
+  min-height: 100vh;
 }
 
 .menu {
@@ -14,7 +18,7 @@ header {
   margin: 0%;
   padding: 0%;
   overflow: hidden;
-  background-color: #183F3C;
+  background-color: #183f3c;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -44,7 +48,7 @@ header {
 }
 
 .menu-item a:hover {
-  background-color: #F98049;
+  background-color: #f98049;
 }
 
 section {
@@ -56,7 +60,6 @@ section {
 section article {
   margin-top: 50px;
 }
-
 
 /* card*/
 
@@ -106,7 +109,7 @@ section article {
 }
 
 footer {
-  background-color: #183F3C;
+  background-color: #183f3c;
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -114,7 +117,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-top: 20px;
 }
 
 .rodape li {
@@ -130,7 +132,7 @@ footer {
 }
 
 .rodape_info a:hover {
-  color: #F98049;
+  color: #f98049;
 }
 
 .direitosreservados {
@@ -143,13 +145,12 @@ footer {
   align-items: center;
   margin-top: 70px;
   padding: 10px;
-
 }
 
 .calendario {
   font-size: 25px;
-  border: 2px solid #183F3C;
-  color: #183F3C;
+  border: 2px solid #183f3c;
+  color: #183f3c;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgba(231, 235, 235 0.5)
+  background-color: rgba(231, 235, 235 0.5);
 }

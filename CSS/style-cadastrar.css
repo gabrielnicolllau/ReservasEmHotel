@@ -4,10 +4,19 @@ body {
   position: relative;
   min-height: 100vh;
   background-image: url(../img/inicio/hotel-e-logo/hotel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header {
-  padding: 20px 0;
+nav {
+  height: 100px;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
@@ -118,7 +127,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  margin-top: 20px;
 }
 
 .rodape li {
