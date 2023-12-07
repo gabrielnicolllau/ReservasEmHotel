@@ -19,7 +19,6 @@ function entrar() {
       };
     }
   });
-  console.log(listaDeUser)
 
   if (userValid.usuario !== "" && userValid.senha !== "") {
     alert("Login bem-sucedido!");
