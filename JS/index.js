@@ -3,6 +3,10 @@ window.onload = function () {
     let usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
 
     if (usuarioLogado && usuarioLogado.nome) {
+
+
+        alert("Bem vindo, " + usuarioLogado.nome);
+
         const menu = document.querySelector(".menu");
 
         let userMenu = document.getElementById("userMenu");
