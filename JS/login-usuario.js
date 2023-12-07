@@ -31,16 +31,11 @@ function entrar() {
 
     window.location.href = "../index.html";
 
-    // Isso recarrega a página após o logout
-    //location.reload();
-
-
   } else {
     alert("Usuário ou senha incorretos!");
   }
 }
 
-// Verifica se há um usuário logado ao carregar a página
 // Verifica se há um usuário logado ao carregar a página
 window.onload = function () {
 
@@ -62,8 +57,7 @@ window.onload = function () {
     sairBtn.addEventListener("click", (e) => {
 
       localStorage.removeItem("usuarioLogado");
-      //aqui ce mudaria o localStorage.setItem("usuarioLogado", JSON.stringify(userValid)) para null ou algo assi
-      location.reload(); // Isso recarrega a página após o logout
+      location.reload(); // Recarrega a página após o logout
     })
 
     menuIten.appendChild(sairBtn);
