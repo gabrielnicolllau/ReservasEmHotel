@@ -61,8 +61,6 @@ section article {
   margin-top: 50px;
 }
 
-/* card*/
-
 .titulo-principal {
   margin-top: 10px;
   padding: 1px;
@@ -90,6 +88,11 @@ section article {
 
 .img-do-card {
   width: 100%;
+}
+
+.price {
+  color: #183f3c;
+  font-size: 18px;
 }
 
 .card button {
