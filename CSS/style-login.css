@@ -73,7 +73,7 @@ section article {
 
 form {
   width: 300px;
-  margin: 200px auto;
+  margin: 200px;
   text-align: center;
   color: white;
 }
@@ -112,7 +112,7 @@ input:hover {
   padding: 16px;
   background-color: #183f3c;
   border-radius: 4%;
-  box-shadow: 3px 3px 1px 0px #000006;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 .cadastre-se {

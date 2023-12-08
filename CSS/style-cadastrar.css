@@ -68,14 +68,14 @@ section article {
 
 .titulo-login {
   padding: auto;
-  height: 1px;
+  height: 25px;
 }
 
 form {
   width: 300px;
-  margin: 200px auto;
   text-align: center;
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 input[type="text"],
