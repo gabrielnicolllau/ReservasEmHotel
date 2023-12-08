@@ -1,26 +1,26 @@
 function entrar() {
-  let usuario = document.querySelector("#usuario").value;
+  let email = document.querySelector("#input-email").value;
   let senha = document.querySelector("#senha").value;
 
   let listaDeUser = JSON.parse(localStorage.getItem("listaDeUsuarios")) || [];
 
   let userValid = {
     nome: "",
-    usuario: "",
+    email: "",
     senha: ""
   };
 
   listaDeUser.forEach(item => {
-    if (usuario === item.cadastroUsuario && senha === item.cadastroDaSenha) {
+    if (email === item.cadastroEmail && senha === item.cadastroDaSenha) {
       userValid = {
         nome: item.cadastroDoNome,
-        usuario: item.cadastroUsuario,
+        email: item.cadastroEmail,
         senha: item.cadastroDaSenha
       };
     }
   });
 
-  if (userValid.usuario !== "" && userValid.senha !== "") {
+  if (userValid.email !== "" && userValid.senha !== "") {
     alert("Login bem-sucedido!");
     let userMenu = document.getElementById("userMenu");
     userMenu.textContent = userValid.nome;
